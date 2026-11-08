@@ -1,0 +1,4 @@
+// EggWobble — launcher (v1.2.1). Copyright (c) 2026 Unagi Tech Inc.
+// egg_wobble.py must be in Maya user scripts/ (flat).
+// Use from the Script Editor MEL tab or a shelf button (MEL). Do not run from the Python tab.
+python("import importlib; import egg_wobble as ew; importlib.reload(ew); ew.show()");
